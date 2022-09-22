@@ -16,6 +16,15 @@
 		237FF53D28D0F46900A3D94A /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FF53C28D0F46900A3D94A /* CustomNavigationController.swift */; };
 		237FF54128D0F50C00A3D94A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FF54028D0F50C00A3D94A /* UIColorExtension.swift */; };
 		237FF54328D0F8DC00A3D94A /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FF54228D0F8DC00A3D94A /* CustomTabBarController.swift */; };
+		238FC33A28DB5CB7004258BD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238FC33928DB5CB7004258BD /* Product.swift */; };
+		238FC33C28DB64E5004258BD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238FC33B28DB64E5004258BD /* Item.swift */; };
+		238FC34328DB7C58004258BD /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238FC34228DB7C58004258BD /* ProductViewModel.swift */; };
+		238FC34828DB8668004258BD /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238FC34628DB8668004258BD /* ProductViewController.swift */; };
+		238FC34928DB8668004258BD /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 238FC34728DB8668004258BD /* ProductViewController.xib */; };
+		238FC34D28DB9DFB004258BD /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238FC34B28DB9DFB004258BD /* CustomCellTableViewCell.swift */; };
+		238FC34E28DB9DFB004258BD /* CustomCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 238FC34C28DB9DFB004258BD /* CustomCellTableViewCell.xib */; };
+		23BA5CC528DB587900CD1B76 /* ProductsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BA5CC428DB587900CD1B76 /* ProductsService.swift */; };
+		9FEFF1DBF3AB70189C20E579 /* Pods_MercadoLibreBuscador.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F43CC6D29B008F51BD3DBB9 /* Pods_MercadoLibreBuscador.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +39,17 @@
 		237FF53C28D0F46900A3D94A /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		237FF54028D0F50C00A3D94A /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		237FF54228D0F8DC00A3D94A /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		238FC33928DB5CB7004258BD /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		238FC33B28DB64E5004258BD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		238FC34228DB7C58004258BD /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		238FC34628DB8668004258BD /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		238FC34728DB8668004258BD /* ProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
+		238FC34B28DB9DFB004258BD /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
+		238FC34C28DB9DFB004258BD /* CustomCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellTableViewCell.xib; sourceTree = "<group>"; };
+		23BA5CC428DB587900CD1B76 /* ProductsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsService.swift; sourceTree = "<group>"; };
+		8F43CC6D29B008F51BD3DBB9 /* Pods_MercadoLibreBuscador.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MercadoLibreBuscador.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A939FFE260397791E73A14 /* Pods-MercadoLibreBuscador.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoLibreBuscador.release.xcconfig"; path = "Target Support Files/Pods-MercadoLibreBuscador/Pods-MercadoLibreBuscador.release.xcconfig"; sourceTree = "<group>"; };
+		E1B4326D42EF4A3294B1B692 /* Pods-MercadoLibreBuscador.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoLibreBuscador.debug.xcconfig"; path = "Target Support Files/Pods-MercadoLibreBuscador/Pods-MercadoLibreBuscador.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEFF1DBF3AB70189C20E579 /* Pods_MercadoLibreBuscador.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AD406DA8D7B8A402520B73A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1B4326D42EF4A3294B1B692 /* Pods-MercadoLibreBuscador.debug.xcconfig */,
+				A9A939FFE260397791E73A14 /* Pods-MercadoLibreBuscador.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		23754A0928CF6D530086B877 = {
 			isa = PBXGroup;
 			children = (
 				23754A1428CF6D530086B877 /* MercadoLibreBuscador */,
 				23754A1328CF6D530086B877 /* Products */,
+				1AD406DA8D7B8A402520B73A /* Pods */,
+				67AF9D7F9879A1B32878B414 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +94,8 @@
 		23754A1428CF6D530086B877 /* MercadoLibreBuscador */ = {
 			isa = PBXGroup;
 			children = (
+				238FC34A28DB9DCD004258BD /* CustomCell */,
+				23BA5CC128DB566A00CD1B76 /* Networking */,
 				237FF53928D0F40A00A3D94A /* Extensions */,
 				237FF53828D0F1BE00A3D94A /* Common */,
 				237FF53528D0D88600A3D94A /* TabBar */,
@@ -74,8 +108,8 @@
 		237FF52E28D0CDEE00A3D94A /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				237FF53128D0CE4E00A3D94A /* HomeViewController.swift */,
-				237FF53228D0CE4E00A3D94A /* HomeViewController.xib */,
+				238FC34128DB7C45004258BD /* Product */,
+				238FC33F28DB7C24004258BD /* Home */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -108,6 +142,68 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		238FC33D28DB6511004258BD /* Respond */ = {
+			isa = PBXGroup;
+			children = (
+				238FC33928DB5CB7004258BD /* Product.swift */,
+				238FC33B28DB64E5004258BD /* Item.swift */,
+			);
+			path = Respond;
+			sourceTree = "<group>";
+		};
+		238FC33E28DB6535004258BD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				23BA5CC428DB587900CD1B76 /* ProductsService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		238FC33F28DB7C24004258BD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				237FF53128D0CE4E00A3D94A /* HomeViewController.swift */,
+				237FF53228D0CE4E00A3D94A /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		238FC34128DB7C45004258BD /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				238FC34228DB7C58004258BD /* ProductViewModel.swift */,
+				238FC34628DB8668004258BD /* ProductViewController.swift */,
+				238FC34728DB8668004258BD /* ProductViewController.xib */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		238FC34A28DB9DCD004258BD /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				238FC34B28DB9DFB004258BD /* CustomCellTableViewCell.swift */,
+				238FC34C28DB9DFB004258BD /* CustomCellTableViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		23BA5CC128DB566A00CD1B76 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				238FC33E28DB6535004258BD /* Service */,
+				238FC33D28DB6511004258BD /* Respond */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		67AF9D7F9879A1B32878B414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F43CC6D29B008F51BD3DBB9 /* Pods_MercadoLibreBuscador.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23754A2628CF6D560086B877 /* Build configuration list for PBXNativeTarget "MercadoLibreBuscador" */;
 			buildPhases = (
+				0275769F08147D0E61184039 /* [CP] Check Pods Manifest.lock */,
 				23754A0E28CF6D530086B877 /* Sources */,
 				23754A0F28CF6D530086B877 /* Frameworks */,
 				23754A1028CF6D530086B877 /* Resources */,
+				A2711A1D69A02D5F125513B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,19 +265,69 @@
 			buildActionMask = 2147483647;
 			files = (
 				23754A1F28CF6D560086B877 /* Assets.xcassets in Resources */,
+				238FC34928DB8668004258BD /* ProductViewController.xib in Resources */,
+				238FC34E28DB9DFB004258BD /* CustomCellTableViewCell.xib in Resources */,
 				237FF53428D0CE4E00A3D94A /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0275769F08147D0E61184039 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MercadoLibreBuscador-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2711A1D69A02D5F125513B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MercadoLibreBuscador/Pods-MercadoLibreBuscador-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MercadoLibreBuscador/Pods-MercadoLibreBuscador-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MercadoLibreBuscador/Pods-MercadoLibreBuscador-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23754A0E28CF6D530086B877 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238FC33C28DB64E5004258BD /* Item.swift in Sources */,
+				238FC33A28DB5CB7004258BD /* Product.swift in Sources */,
+				23BA5CC528DB587900CD1B76 /* ProductsService.swift in Sources */,
+				238FC34D28DB9DFB004258BD /* CustomCellTableViewCell.swift in Sources */,
+				238FC34328DB7C58004258BD /* ProductViewModel.swift in Sources */,
 				23754A1A28CF6D530086B877 /* ViewController.swift in Sources */,
 				237FF54328D0F8DC00A3D94A /* CustomTabBarController.swift in Sources */,
+				238FC34828DB8668004258BD /* ProductViewController.swift in Sources */,
 				23754A1628CF6D530086B877 /* AppDelegate.swift in Sources */,
 				237FF54128D0F50C00A3D94A /* UIColorExtension.swift in Sources */,
 				23754A1828CF6D530086B877 /* SceneDelegate.swift in Sources */,
@@ -307,11 +455,13 @@
 		};
 		23754A2728CF6D560086B877 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B4326D42EF4A3294B1B692 /* Pods-MercadoLibreBuscador.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJDA5M2PPC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MercadoLibreBuscador/Info.plist;
 				INFOPLIST_KEY_NSMainNibFile = HomeViewController;
@@ -334,11 +484,13 @@
 		};
 		23754A2828CF6D560086B877 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A939FFE260397791E73A14 /* Pods-MercadoLibreBuscador.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJDA5M2PPC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MercadoLibreBuscador/Info.plist;
 				INFOPLIST_KEY_NSMainNibFile = HomeViewController;

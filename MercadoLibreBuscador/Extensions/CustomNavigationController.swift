@@ -27,9 +27,6 @@ class CustomNavigationController: UINavigationController {
         navigationBar.standardAppearance = appearance;
         navigationBar.scrollEdgeAppearance = navigationBar.standardAppearance
         
-//        searchController.searchBar.placeholder = "Search artists"
-//        self.navigationItem.searchController = searchController
-//        self.definesPresentationContext = true
     }
     
     

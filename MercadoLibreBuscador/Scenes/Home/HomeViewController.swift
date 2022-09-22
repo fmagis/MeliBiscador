@@ -14,7 +14,6 @@ class HomeViewController: UIViewController {
         searchBar.placeholder = "Busca en Mercado libre"
         searchBar.delegate = self
         searchBar.keyboardAppearance = .default
-   //     searchBar.searchTextField.backgroundColor = .white
         return searchBar
     }()
     
@@ -22,7 +21,6 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         
         setupNavBar()
-        searchBarSearchButtonClicked(searchbar)
     }
     
     private func setupNavBar() {
@@ -34,9 +32,24 @@ class HomeViewController: UIViewController {
 extension HomeViewController: UISearchBarDelegate {
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-       searchBar.resignFirstResponder()
-       guard let titleProduct = searchBar.text else { return }
-       print("name product: \(titleProduct)")
-     }
-    
+        
+        searchBar.resignFirstResponder()
+        guard let titleProduct = searchBar.text else { return }
+        
+        let productViewModel = ProductViewModel()
+        print(titleProduct)
+        productViewModel.getActivity(limit: 15, product: titleProduct) { products in
+            if let products = products {
+                
+                productViewModel.products = products
+                
+                let vc = ProductViewController(viewModel: productViewModel)
+                vc.modalPresentationStyle = .overFullScreen
+                self.navigationController?.pushViewController(vc, animated: true)
+                
+            } else {
+                print("Error")
+            }
+        }
+    }
 }
